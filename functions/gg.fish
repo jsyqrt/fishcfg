@@ -27,6 +27,10 @@ function ggdn
     git diff --name-only $argv
 end
 
+function ggf
+    git fetch 
+end
+
 function ggg
     git grep $argv
 end
@@ -44,6 +48,7 @@ function ggh
     echo "      ggg         git grep $argv"
     echo "      ggh         print this help"
     echo "      ggl         git log"
+    echo "      ggm         git merge $argv"
     echo "      ggpl        git pull"
     echo "      ggps        git push $argv"
     echo "      ggrb        git rebase -i master"
@@ -53,6 +58,10 @@ end
 
 function ggl
     git log
+end
+
+function ggm
+    git merge $argv
 end
 
 function ggpl
