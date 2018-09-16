@@ -11,8 +11,20 @@ function ggc
     git commit -m $argv
 end
 
-function ggf
-    git fetch
+function ggch
+    git checkout $argv
+end
+
+function ggchb
+    git checkout -b $argv
+end
+
+function ggd
+    git diff $argv
+end
+
+function ggdn
+    git diff --name-only $argv
 end
 
 function ggg
@@ -24,6 +36,10 @@ function ggh
     echo "      gg          git status"
     echo "      gga         git add "
     echo "      ggc         git commit -m $argv"
+    echo "      ggch        git checkout $argv"
+    echo "      ggchb       git checkout -b $argv"
+    echo "      ggd         git diff $argv"
+    echo "      ggdn        git diff --name-only $argv"
     echo "      ggf         git fetch"
     echo "      ggg         git grep $argv"
     echo "      ggh         print this help"
