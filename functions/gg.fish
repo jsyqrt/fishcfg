@@ -1,22 +1,26 @@
 function gg
     git status
-    # ggh
+    ls
 end
 
 function gga
     git add $argv
+    ls
 end
 
 function ggc
     git commit -m $argv
+    ls
 end
 
 function ggch
     git checkout $argv
+    ls
 end
 
 function ggchb
     git checkout -b $argv
+    ls
 end
 
 function ggd
@@ -29,10 +33,12 @@ end
 
 function ggf
     git fetch 
+    ls
 end
 
 function ggg
     git grep $argv
+    ls
 end
 
 function ggh
@@ -54,6 +60,7 @@ function ggh
     echo "      ggrb        git rebase -i master"
     echo "      ggrba       git rebase --abort"
     echo "      ggrbc       git rebase --continue"
+    ls
 end
 
 function ggl
@@ -62,26 +69,32 @@ end
 
 function ggm
     git merge $argv
+    ls
 end
 
 function ggpl
     git pull
+    ls
 end
 
 function ggps
     git push $argv
+    ls
 end
 
 function ggrb
     git rebase -i master
+    ls
 end
 
 function ggrba
     git rebase --abort
+    ls
 end
 
 function ggrbc
     git rebase --continue
+    ls
 end
 
 
