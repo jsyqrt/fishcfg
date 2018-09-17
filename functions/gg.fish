@@ -59,7 +59,7 @@ function ggd
 end
 
 function ggdn
-    git diff --name-only $argv
+    git diff $argv --name-only
 end
 
 function ggf
