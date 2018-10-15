@@ -13,7 +13,7 @@ abbr --add ggf git fetch
 abbr --add ggg git grep 
 abbr --add ggl git log 
 abbr --add ggm git merge 
-abbr --add ggm git merge master 
+abbr --add ggmm git merge master 
 abbr --add ggpl git pull 
 abbr --add ggps git push 
 abbr --add ggrb git rebase -i master 
