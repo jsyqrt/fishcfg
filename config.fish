@@ -6,6 +6,7 @@ abbr --add ggbdd git branch -D
 abbr --add ggc git commit -m  
 abbr --add ggch git checkout 
 abbr --add ggchb git checkout -b
+abbr --add ggchm git checkout master
 abbr --add ggd git diff 
 abbr --add ggdm git diff --name-only master
 abbr --add ggdn git diff --name-only 
