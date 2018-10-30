@@ -22,4 +22,7 @@ abbr --add ggps git push
 abbr --add ggrb git rebase -i master 
 abbr --add ggrba git rebase --abort 
 abbr --add ggrbc git rebase --continue 
+abbr --add ggs git stash
+abbr --add ggsp git stash pop
+
 
