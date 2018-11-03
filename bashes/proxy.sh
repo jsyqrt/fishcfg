@@ -1,6 +1,7 @@
 #!/bin/bash 
 
 HOME="/home/`whoami`"
+ConfigFile="$HOME/.config/ss/69-2.json"
 
 function launchProxy {
 
@@ -11,7 +12,7 @@ function launchProxy {
 
     # launch shadowsocks local daemon and privoxy service.
 
-    sudo sslocal -c $HOME/.shadowsocks.json -d start
+    sudo sslocal -c $ConfigFile -d start
     sudo service privoxy start
 
     # set global variables.
