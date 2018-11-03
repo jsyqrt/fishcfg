@@ -26,3 +26,4 @@ abbr --add ggs git stash
 abbr --add ggsp git stash pop
 
 
+alias e emacs
