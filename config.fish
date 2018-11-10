@@ -8,7 +8,8 @@ abbr --add ggch git checkout
 abbr --add ggchb git checkout -b
 abbr --add ggchm git checkout master
 abbr --add ggd git diff 
-abbr --add ggdm git diff --name-only master
+abbr --add ggdm git diff master
+abbr --add ggdmn git diff --name-only master
 abbr --add ggdn git diff --name-only 
 abbr --add ggf git fetch 
 abbr --add ggg git grep 
