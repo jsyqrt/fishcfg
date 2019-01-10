@@ -29,5 +29,8 @@ abbr --add gsp git stash pop
 
 abbr --add l clear;ls
 abbr --add c cd
+abbr --add p pgrep
+abbr --add pk pkill -9
+abbr --add tf tail -f
 
 alias e emacs
