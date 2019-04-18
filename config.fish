@@ -33,4 +33,6 @@ abbr --add p pgrep
 abbr --add pk pkill -9
 abbr --add tf tail -f
 
+abbr --add r ranger
+
 alias e emacs

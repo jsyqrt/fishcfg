@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 HOME="/home/`whoami`"
-ConfigFile="$HOME/.config/ss/69-2.json"
+ConfigFile="$HOME/.config/ss/bg.json"
 
 function launchProxy {
 
