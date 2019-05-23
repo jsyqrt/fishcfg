@@ -31,6 +31,8 @@ abbr --add l clear;ls
 abbr --add c cd
 abbr --add r ranger
 abbr --add p pgrep
+abbr --add m man
+abbr --add v vi
 abbr --add pk pkill -9
 abbr --add tf tail -f
 
