@@ -36,4 +36,6 @@ abbr --add v vi
 abbr --add pk pkill -9
 abbr --add tf tail -f
 
+abbr --add r ranger
+
 alias e emacs
