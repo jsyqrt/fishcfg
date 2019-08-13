@@ -12,7 +12,7 @@ function launchProxy {
 
     # launch shadowsocks local daemon and privoxy service.
 
-    sudo sslocal -c $ConfigFile -d start
+    # sudo sslocal -c $ConfigFile -d start
     sudo service privoxy start
 
     # set global variables.
@@ -37,14 +37,14 @@ function launchProxy {
 function stopProxy {
 
     # stop shadowsocks local daemon and privoxy service.
-    sudo pkill sslocal
+    # sudo pkill sslocal
     sudo service privoxy stop
 
     # set global variables.
 
-    fish -c "set -Ux http_proxy ''"
-    fish -c "set -Ux https_proxy ''"
-    fish -c "set -Ux ftp_proxy ''"
+    fish -c "set -Ue http_proxy"
+    fish -c "set -Ue https_proxy"
+    fish -c "set -Ue ftp_proxy"
 
     # set gnome settings.
 
