@@ -1,3 +1,6 @@
+set -x PATH $PATH /home/jason/archive/android-studio/bin
+set -x PATH $PATH /home/jason/archive/flutter/bin
+
 abbr --add g git status
 abbr --add ga git add
 abbr --add gb git branch
@@ -37,5 +40,3 @@ abbr --add pk pkill -9
 abbr --add tf tail -f
 
 abbr --add r ranger
-
-alias e emacs
